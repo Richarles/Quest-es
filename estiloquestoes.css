@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cdd2d8;
+    font-family: sans-serif;
+}
+.container { 
+}
+.Numero-Questao{
+    background-color: #183da3;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 74px;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+}
+h3{
+    margin: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.Questaoum{
+    background-color: #ffffff;
+    width: 700px;
+    height: 600px;
+    margin: 25px auto;
+    box-shadow: 10px 10px #5f7787;
+    box-sizing: border-box;
+    display: none;
+}
+.Opcoes{
+    width: 500px;
+    height: 200px
+    align-items: center;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.Opcoes .Opcao{
+    width: 400px;
+    height: 40px;
+}
+.Opcoes input{
+    float: left;
+    cursor: pointer;
+}
+
+input[type="button"]{
+    background-color: #183da3;
+    width: 180px;
+    height: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    box-sizing: border-box;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#respostas{
+    width: 400px;
+    background-color:mediumblue;
+    text-align: center;
+    margin-left: 40%;
+    display: none;
+}
+#nota{
+    background-color: green;
+    width: 120px;
+    font-size: 50px;
+    color: white;
+    border-radius:  50px 0  50px 0;
+    margin-top: 10px;
+}
+#demo{
+    font-size: 95px;
+    border: 25px  solid white;
+}
+.Confirmacao{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin: 15% auto;
+    background-color: white;
+    color: black;
+}
+.next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  right: 380px;
+  margin-top: 140px;
+  display: block;
+}
